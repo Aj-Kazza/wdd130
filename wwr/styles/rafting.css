@@ -5,25 +5,25 @@
 }
 
 :root {
-    --color-1: #e9ac58;
-    --color-2: #2f7cb6;
-    --color-3: #58433a;
-    --color-4: #e7eef1;
-    --color-5: #0b2964;
+    --primary-color: #e4a040;
+    --secondary-color: #0b2964;
+    --accent1-color: #58433a;
+    --accent2-color: #daefff;
+
     --header-font: "Oswald", sans-serif;
     --body-font: "PT Serif", serif;
-    --border-line: 1px var(--color-3) solid;
+
+    --border-line: 1px var(--accent1-color) solid;
 }
 
 header {
-    background-color: var(--color-1);
-    color: var(--color-4);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 body {
     font-family: var(--body-font);
-    color: var(--color-5);
-    background-color: var(--color-4);
+    color: var(--secondary-color);
 }
 
 header,
@@ -36,7 +36,8 @@ footer {
 h1,
 h2 {
     font-family: var(--header-font);
-    color: var(--color-3);
+    color: var(--accent1-color);
+    text-align: center;
 }
 
 nav,
@@ -74,7 +75,7 @@ article {
 .hero article {
     position: absolute;
     bottom: 5px;
-    background-color: color-mix(in srgb, var(--color-1), transparent 30%);
+    background-color: color-mix(in srgb, var(--primary-color), transparent 30%);
     border-radius: 50px 50px 50px 50px;
 
 }
@@ -93,7 +94,11 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--color-4);
+    background-color: var(--accent2-color);
+}
+
+section h2 {
+    background-color: var(--accent2-color);
 }
 
 footer {
