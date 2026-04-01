@@ -128,7 +128,7 @@ article {
 }
 
 .socialmedia {
-    margin-top: 0;
+    margin-top: 0px;
     grid-column: 3/4;
     display: flex;
     justify-content: space-evenly;
