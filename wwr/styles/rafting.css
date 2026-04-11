@@ -81,9 +81,76 @@ footer {
     padding: 10px;
 }
 
-.adventure div {
+.trips {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+}
+
+section h1 {
+    background-color: var(--accent2-color);
+}
+
+.trips img {
+    width: 350px;
+    height: auto;
+}
+
+.trips div {
+    padding: 20px;
+}
+
+.featured div {
     display: flex;
     justify-content: space-around;
+}
+
+.prices table {
+    width: 200px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffff;
+}
+
+tr:nth-child(even) {
+    background-color: var(--accent2-color);
+}
+
+.rates {
+    position: relative;
+}
+
+.prices {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.rates img {
+    height: 400px;
+    width: auto;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 figure {
@@ -105,10 +172,52 @@ figure {
     height: auto;
 }
 
-.employee div {
+.feature figure img {
+    align-self: center;
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+    border: 1px solid var(--secondary-color);
+}
+
+.feature figure {
+    background-color: var(--accent2-color);
+    height: 250px;
+    border: 1px solid var(--secondary-color);
+}
+
+.feature figcaption {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.signup {
     display: flex;
-    justify-content: space-around;
-    /* background-color: var(--accent2-color); */
+    background-color: var(--accent2-color);
+}
+
+.signup img {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: fill;
+    padding: 1rem;
+}
+
+.signup form {
+    height: auto;
+}
+
+.signup button {
+    padding: 1rem;
+    margin: 1rem;
+    width: 200px;
+    justify-self: center;
+}
+
+.signup h2 {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 h1,
@@ -159,6 +268,17 @@ article {
     background-color: color-mix(in srgb, var(--primary-color), transparent 30%);
     border-radius: 50px 50px 50px 50px;
 
+}
+
+.hero .call {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 20px;
+    color: var(--secondary-color);
+    font-size: 25px;
 }
 
 .hero article img {
