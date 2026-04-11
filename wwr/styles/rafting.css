@@ -208,6 +208,7 @@ form {
     margin: 0 auto;
     padding: 0.5rem;
     display: grid;
+    border: 1px var(--accent1-color) solid;
 }
 
 label {
