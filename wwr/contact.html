@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us || Rapids White Water Rafting</title>
+    <meta name="description"
+      content="Contact page for a White Water Rafting website project for WDD130">
+    <meta name="author" content="Ari-John Katia">
+    <link rel="stylesheet" href="styles/rafting.css">
+
+
+</head>
+
+<body>
+    <header><img src="images/logo_bgremoved.png" alt="rafting logo of crossed oars" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section class="contacts">
+                <h1>Rapids White Water Rafting</h1>
+                <p>761 State Highway 33</p>
+                <p>Okere Falls 3074, New Zealand</p>
+                <p>+64 123 123 1234</p>
+                <p>infor@whitewater.com</p>
+            </section>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d660.7894368356!2d176.34312846028888!3d-38.01767108744978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6e840f51f23f7f%3A0x14141e795902c57e!2s761%20State%20Highway%2033%2C%20Okere%20Falls%203074%2C%20New%20Zealand!5e0!3m2!1sen!2ski!4v1775915053094!5m2!1sen!2ski"
+              width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="form">
+                <form action="submit">
+
+                    <div class="form-item column2">
+                        <label for="fullname">Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="placeholder"
+                          required>
+                    </div>
+
+                    <div class="form-item column2">
+                        <label for="useremail">Email</label>
+                        <input type="email" id="useremail" name="useremail"
+                          placeholder="placeholder" required>
+                    </div>
+
+                    <div class="form-item column2">
+                        <p>Message Purpose</p>
+                        <div>
+                            <div class="radio"><input type="radio" id="general" name="purpose"
+                                  value="general_inquiry">
+                                <label for="html">General Inquiry</label><br>
+                            </div>
+                            <div class="radio"><input type="radio" id="reservation" name="purpose"
+                                  value="reservation_question">
+                                <label for="css">Reservation Question</label><br>
+                            </div>
+                            <div class="radio"><input type="radio" id="suggestions" name="purpose"
+                                  value="website_suggestions">
+                                <label for="javascript">Website Suggestions</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-item cloumn1"><label for="feedback">Message</label>
+                        <textarea name="feedback" id="feedback" rows="4"
+                          placeholder="type message here"></textarea>
+                    </div>
+
+                    <div class="form-item column3">
+                        <input type="checkbox" name="pet" id="subscribe">
+                        <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+                    </div>
+
+                    <button type="submit">Get In Touch</button>
+
+                </form>
+            </div>
+        </div>
+
+        <section class="employee">
+            <h2>We Are Here to Serve You</h2>
+            <div>
+                <figure><img src="images/bob.jpg"
+                      alt="portrait of employee, Bob Bob, head of rafting department">
+                    <figcaption>Head of Rafting</figcaption>
+                </figure>
+                <figure><img src="images/bob2.jpg"
+                      alt="portrait of employee, Rob Bob, head of camping department">
+                    <figcaption>Head of Camping</figcaption>
+                </figure>
+                <figure><img src="images/bob3.jpg"
+                      alt="portrait of employee, Dob Bob, head of events department">
+                    <figcaption>Head of Events</figcaption>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 &Star; Rapids White Water Rafting &Star; Ari-John Katia </p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"
+                  alt="facebook logo"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png"
+                  alt="linkedin logo"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png"
+                  alt="instagram logo"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
